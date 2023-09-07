@@ -1,6 +1,6 @@
-FROM debian:bullseye-slim
-LABEL maintainer="Joe Block <jpb@unixorn.net>"
-LABEL description="Cupsd on top of debian-slim"
+FROM debian:bookworm-slim
+LABEL maintainer="Cassie Wintermute<cassiewintermute@gmail.com">
+LABEL description="Cupsd on top of debian-bookworm"
 
 # Install Packages (basic tools, cups, fonts, HP drivers, laundry list drivers)
 RUN apt-get update \
